@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name arduino_shields)(type Legacy)(uri "$(KIPRJMOD)/arduino_shields.mod")(options "")(descr ""))
+  (lib (name Power_ICs)(type KiCad)(uri "$(KIPRJMOD)/poweric.pretty")(options "")(descr ""))
+)
