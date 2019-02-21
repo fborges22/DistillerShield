@@ -28,7 +28,7 @@ $EndComp
 Text Notes 2900 900  0    197  ~ 39
 Shield para Arduino Mega (Destilador LATE)
 $Comp
-L motor_drivers:L298P U2
+L LATE-Destilador-Shield-rescue:L298P-motor_drivers U2
 U 1 1 5A56CAC5
 P 8000 2300
 F 0 "U2" H 7600 2950 50  0000 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 2000 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:AD620 U1
+L LATE-Destilador-Shield-rescue:AD620-linear U1
 U 1 1 5A5A9575
 P 3300 2800
 F 0 "U1" H 3450 3100 50  0000 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 4500 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:Conn_02x02_Top_Bottom J1
+L LATE-Destilador-Shield-rescue:Conn_02x02_Top_Bottom-conn J1
 U 1 1 5A5A9E34
 P 2550 1350
 F 0 "J1" H 2600 1450 50  0000 C CNN
@@ -190,7 +190,7 @@ Text GLabel 3050 1300 2    60   Input ~ 0
 Text GLabel 3050 1500 2    60   Input ~ 0
 5VDC
 $Comp
-L conn:Conn_01x02 J2
+L LATE-Destilador-Shield-rescue:Conn_01x02-conn J2
 U 1 1 5A5AA409
 P 9950 2100
 F 0 "J2" H 9950 2200 50  0000 C CNN
@@ -201,7 +201,7 @@ F 3 "" H 9950 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02 J3
+L LATE-Destilador-Shield-rescue:Conn_01x02-conn J3
 U 1 1 5A5AA462
 P 10250 2400
 F 0 "J3" H 10250 2500 50  0000 C CNN
@@ -318,7 +318,7 @@ F 3 "" H 2400 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L opto:4N25 U4
+L LATE-Destilador-Shield-rescue:4N25-opto U4
 U 1 1 5A5BA1BB
 P 3200 4700
 F 0 "U4" H 3000 4900 50  0000 L CNN
@@ -329,7 +329,7 @@ F 3 "" H 3200 4700 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02 J4
+L LATE-Destilador-Shield-rescue:Conn_01x02-conn J4
 U 1 1 5A5BA8A1
 P 1050 4650
 F 0 "J4" H 1050 4750 50  0000 C CNN
@@ -351,7 +351,7 @@ F 3 "" H 2750 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opto:MOC3020M U3
+L LATE-Destilador-Shield-rescue:MOC3020M-opto U3
 U 1 1 5A5BBB3D
 P 2350 6250
 F 0 "U3" H 2140 6440 50  0000 L CNN
@@ -414,7 +414,7 @@ AC2
 Text GLabel 3050 5900 0    60   Input ~ 0
 AC1
 $Comp
-L conn:Conn_01x02 J5
+L LATE-Destilador-Shield-rescue:Conn_01x02-conn J5
 U 1 1 5A5BCE5C
 P 4100 6350
 F 0 "J5" H 4100 6450 50  0000 C CNN
@@ -473,7 +473,7 @@ F 3 "" H 6700 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:Conn_01x02 J6
+L LATE-Destilador-Shield-rescue:Conn_01x02-conn J6
 U 1 1 5A5BAE99
 P 8300 4400
 F 0 "J6" H 8300 4500 50  0000 C CNN
